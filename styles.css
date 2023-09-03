@@ -46,6 +46,13 @@ nav ul li a:hover {
     background-color: #555;
 }
 
+.project img {
+    display: block;
+    margin: 0 auto 20px; /* 20px bottom margin to give some space between the image and the text below */
+    max-width: 80%; /* makes the image no wider than 80% of its container. Adjust as needed */
+    height: auto; /* maintains the aspect ratio */
+}
+
 main {
     max-width: 800px;
     margin: 20px auto;
