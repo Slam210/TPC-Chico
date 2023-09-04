@@ -24,6 +24,10 @@ header p {
     margin-top: 10px;
 }
 
+header h1 {
+    margin-bottom: 10px; 
+}
+
 nav ul {
     list-style-type: none;
     background-color: #444;
@@ -50,6 +54,7 @@ nav ul li a:hover {
 #club-logo {
     max-width: 80px;  
     margin-right: 20px; 
+    margin-left: 10px;
     float: left;
 }
 header h1, header p {
