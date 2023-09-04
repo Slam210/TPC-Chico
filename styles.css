@@ -5,9 +5,9 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-    font-family: 'Arial', sans-serif; /* This is a web-safe font. You can replace with Google Fonts or others if you prefer */
+    font-family: 'Roboto', sans-serif; /* Use a modern and popular font like Roboto */
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f8f8f8; /* A lighter background color for a modern feel */
     color: #333;
     padding: 20px;
 }
@@ -17,6 +17,7 @@ header {
     color: #ffffff;
     text-align: center;
     padding: 1rem 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
 }
 
 header p {
@@ -30,27 +31,28 @@ nav ul {
 }
 
 nav ul li {
-    float: left;
+    display: inline-block; /* Use inline-block for navigation items */
+    margin-right: 20px; /* Add some spacing between navigation items */
 }
 
 nav ul li a {
-    display: block;
     color: white;
-    text-align: center;
-    padding: 14px 20px;
     text-decoration: none;
+    transition: color 0.3s; /* Smooth color transition on hover */
 }
 
 /* Change color on hover */
 nav ul li a:hover {
-    background-color: #555;
+    color: #66cdaa; /* A vibrant color on hover */
 }
 
 .project img {
     display: block;
-    margin: 0 auto 20px; /* 20px bottom margin to give some space between the image and the text below */
-    max-width: 80%; /* makes the image no wider than 80% of its container. Adjust as needed */
-    height: auto; /* maintains the aspect ratio */
+    margin: 0 auto 20px;
+    max-width: 100%; /* Allow images to take full width of their container */
+    height: auto;
+    border-radius: 5px; /* Add rounded corners to images */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to images */
 }
 
 main {
@@ -58,6 +60,8 @@ main {
     margin: 20px auto;
     background-color: #fff;
     padding: 20px;
+    border-radius: 10px; /* Add rounded corners to the content */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add a shadow to the content */
 }
 
 footer {
@@ -65,14 +69,11 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 1rem 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
 /* Clear floats */
 .clearfix::after {
     content: "";
-    clear: both;
     display: table;
+    clear: both;
 }
