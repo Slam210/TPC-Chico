@@ -31,9 +31,8 @@ nav ul {
     text-align: center; /* Center the inline-block children */
 }
 
-nav ul li {
-    display: inline-block; /* Use inline-block for navigation items */
-    margin-right: 0; /* Add some spacing between navigation items */
+nav ul li:last-child {
+    margin-right: 0;
 }
 
 nav ul li a {
