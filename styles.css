@@ -31,8 +31,9 @@ nav ul {
     text-align: center; /* Center the inline-block children */
 }
 
-nav ul li:last-child {
-    margin-right: 0;
+nav ul li {
+    display: inline-block; /* Make the list items display in a line */
+    margin-right: 20px; /* Space between each item */
 }
 
 nav ul li a {
