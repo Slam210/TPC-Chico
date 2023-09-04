@@ -24,7 +24,8 @@ header {
 }
 
 .header-text {
-    text-align: center; /* This centers the title and subtitle inside their container */
+    text-align: center;
+    margin-left: 10px;
 }
 
 header p {
