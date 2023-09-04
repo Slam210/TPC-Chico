@@ -47,6 +47,13 @@ nav ul li a:hover {
     color: #66cdaa; /* A vibrant color on hover */
 }
 
+#club-logo {
+    max-width: 150px; /* Adjust as necessary */
+    margin: 0 auto;   /* Center the logo */
+    display: block;
+    padding-bottom: 10px; /* Spacing between the logo and the title */
+}
+
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
