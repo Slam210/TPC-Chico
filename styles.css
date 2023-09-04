@@ -75,7 +75,7 @@ nav ul li a:hover {
     max-width: 80px;  
     margin-right: 20px; 
     margin-left: 10px;
-    margin-top: -7px;
+    margin-top: -5px;
     float: left;
 }
 header h1, header p {
@@ -90,7 +90,7 @@ header h1, header p {
     text-decoration: none;
     border-radius: 4px;
     margin-top: 0; 
-    margin-right: 15px; 
+    margin-right: 30px; 
     transition: background-color 0.3s;
 }
 
