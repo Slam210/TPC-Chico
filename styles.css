@@ -62,16 +62,15 @@ header h1, header p {
 }
 
 .cta-button {
-    display: inline-block;
+    float: right; /* Float the button to the right */
     padding: 10px 20px;
     background-color: #7289da; /* Discord color */
     color: white;
     text-decoration: none;
     border-radius: 4px;
-    margin-top: 10px;
+    margin-top: 1.5rem; /* Adjust this value to align it vertically as per your requirements */
+    margin-right: 15px; /* Give it a bit of space from the right edge */
     transition: background-color 0.3s;
-    float: right;
-    margin-right: 10px;
 }
 
 .cta-button:hover {
