@@ -48,10 +48,12 @@ nav ul li a:hover {
 }
 
 #club-logo {
-    max-width: 150px; /* Adjust as necessary */
-    margin: 0 auto;   /* Center the logo */
-    display: block;
-    padding-bottom: 10px; /* Spacing between the logo and the title */
+    max-width: 80px;  
+    margin-right: 20px; 
+    float: left;
+}
+header h1, header p {
+    display: inline-block; /* Allows the text to flow next to the logo */
 }
 
 .cta-button {
