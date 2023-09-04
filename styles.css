@@ -58,7 +58,7 @@ nav ul li a:hover {
     float: left;
 }
 header h1, header p {
-    display: inline-block; /* Allows the text to flow next to the logo */
+    
 }
 
 .cta-button {
@@ -70,6 +70,8 @@ header h1, header p {
     border-radius: 4px;
     margin-top: 10px;
     transition: background-color 0.3s;
+    float: right;
+    margin-right: 10px;
 }
 
 .cta-button:hover {
