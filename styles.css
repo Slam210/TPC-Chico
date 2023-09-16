@@ -9,7 +9,9 @@ body {
     line-height: 1.6;
     background-color: #f8f8f8; /* A lighter background color for a modern feel */
     color: #333;
-    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure a minimum viewport height */
 }
 
 header {
@@ -109,6 +111,7 @@ header h1, header p {
 }
 
 main {
+    flex: 1; /* Allow the main content to grow and take up available space */
     max-width: 800px;
     margin: 20px auto;
     background-color: #fff;
@@ -118,9 +121,6 @@ main {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     background-color: #333;
     color: #ffffff;
     text-align: center;
