@@ -161,22 +161,6 @@ nav ul li a:hover {
     float: center;
 }
 
-.cta-button {
-    float: right; 
-    padding: 10px 20px;
-    background-color: #7289da; 
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    margin-top: 0; 
-    margin-right: 30px; 
-    transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-    background-color: #586c94; /* A darker shade for hover */
-}
-
 .project img {
     display: block;
     margin: 0 auto 20px;
@@ -441,7 +425,6 @@ body {
       }
   }
   .sidenav {
-    
     height: 100%;
     width: 360px;
     position: fixed;
@@ -461,12 +444,30 @@ body {
     text-align: center;
     font-size: 20px;
     color: #818181;
+    transition: color 0.3s;
     display: block;
   }
   
   .sidenav a:hover {
     animation: slideInFromTop;
     color: #f1f1f1;
+  }
+  
+  .cta-button {
+    float: none;
+    background-color: #7289DA;
+    color: white !important;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-right: 50px;
+    margin-top: 35px !important;
+    transition: background-color 0.3s !important;
+  }
+  
+  .cta-button:hover {
+    background-color: #5a68a5;
   }
   
   .main {
