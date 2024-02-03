@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TPC-Chico/static/css/main.f1061987.css",
+    "main.css": "/TPC-Chico/static/css/main.cd0ce174.css",
     "main.js": "/TPC-Chico/static/js/main.cc67ca48.js",
     "static/js/787.e2e5f5a8.chunk.js": "/TPC-Chico/static/js/787.e2e5f5a8.chunk.js",
     "static/media/AdamGameofLife.png": "/TPC-Chico/static/media/AdamGameofLife.16ea0bb391eba2940dfc.png",
@@ -10,12 +10,12 @@
     "static/media/AdamRaylib.png": "/TPC-Chico/static/media/AdamRaylib.5db81fc5bde7f1791ce7.png",
     "static/media/ClubLogo.png": "/TPC-Chico/static/media/ClubLogo.03f3afa3517212f4b8bd.png",
     "index.html": "/TPC-Chico/index.html",
-    "main.f1061987.css.map": "/TPC-Chico/static/css/main.f1061987.css.map",
+    "main.cd0ce174.css.map": "/TPC-Chico/static/css/main.cd0ce174.css.map",
     "main.cc67ca48.js.map": "/TPC-Chico/static/js/main.cc67ca48.js.map",
     "787.e2e5f5a8.chunk.js.map": "/TPC-Chico/static/js/787.e2e5f5a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1061987.css",
+    "static/css/main.cd0ce174.css",
     "static/js/main.cc67ca48.js"
   ]
 }
