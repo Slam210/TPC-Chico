@@ -2,3 +2,7 @@ body {
     background: white;
     font-family: 'Inconsolata', sans-serif;
 }
+
+p {
+    line-height: 150%;
+}

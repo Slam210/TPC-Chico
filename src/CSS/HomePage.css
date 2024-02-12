@@ -5,6 +5,7 @@
     overflow-y: auto;
     height: 100%;
     text-align: center;
+    max-width: 100%;
 }
 
 .homePageTitle {

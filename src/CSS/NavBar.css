@@ -32,6 +32,7 @@
   text-decoration: none;
   display: inherit;
   align-items: center;
+  justify-content: center;
   padding: .25rem;
 }
 
