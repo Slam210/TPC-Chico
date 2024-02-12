@@ -1,6 +1,6 @@
 const eventsData = [
     {
-      date: '2024-02-14',
+      date: '2024-02-15',
       title: 'General Club Meetup',
       description: 'First general meeting for the semester. And guess what? There will be PIZZA! We are a growing community where members can showcase their projects, connect, and collaborate. We hope to see you there!',
       images: []
