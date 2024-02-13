@@ -43,10 +43,10 @@ const projectsData = [
       image: AdamGameofLife,
     },
     {
-      name: "Aidan Scott Raymondd",
+      name: "Aidan Raymond",
       title: "3D Model Viewer",
       githubLink: "https://github.com/Tabris05/modelviewer",
-      description: "The Toy 3D Model Viewer is a personal project designed to delve into the intricacies of real-time graphics programming. Created as a learning journey, the viewer boasts features such as 8X MSAA Antialiasing, fully-dynamic forward-rendered lighting, and Physically Based Shading.",
+      description: "A simple program for viewing 3D renders of .gltf files in real time. Features include a fully dynamic physically based lighting model,  image-based global illumination, support for custom hdr skyboxes, and directional shadow-mapping with percentage-closer filtering.",
       image: Aidan3D,
     },
     {
