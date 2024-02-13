@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TPC-Chico/static/css/main.8eea44c0.css",
-    "main.js": "/TPC-Chico/static/js/main.4dcb50f2.js",
-    "static/js/787.e2e5f5a8.chunk.js": "/TPC-Chico/static/js/787.e2e5f5a8.chunk.js",
+    "main.js": "/TPC-Chico/static/js/main.e554eb65.js",
+    "static/js/592.4c4ce7af.chunk.js": "/TPC-Chico/static/js/592.4c4ce7af.chunk.js",
     "static/media/Aidan3d.png": "/TPC-Chico/static/media/Aidan3d.23ae83ed5050f65d34ad.png",
     "static/media/AdamGameofLife.png": "/TPC-Chico/static/media/AdamGameofLife.16ea0bb391eba2940dfc.png",
     "static/media/NumanScheduleHelper.png": "/TPC-Chico/static/media/NumanScheduleHelper.8e6ed654fb6cf6d45f3d.png",
@@ -13,11 +13,11 @@
     "static/media/ClubLogo.png": "/TPC-Chico/static/media/ClubLogo.03f3afa3517212f4b8bd.png",
     "index.html": "/TPC-Chico/index.html",
     "main.8eea44c0.css.map": "/TPC-Chico/static/css/main.8eea44c0.css.map",
-    "main.4dcb50f2.js.map": "/TPC-Chico/static/js/main.4dcb50f2.js.map",
-    "787.e2e5f5a8.chunk.js.map": "/TPC-Chico/static/js/787.e2e5f5a8.chunk.js.map"
+    "main.e554eb65.js.map": "/TPC-Chico/static/js/main.e554eb65.js.map",
+    "592.4c4ce7af.chunk.js.map": "/TPC-Chico/static/js/592.4c4ce7af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8eea44c0.css",
-    "static/js/main.4dcb50f2.js"
+    "static/js/main.e554eb65.js"
   ]
 }
