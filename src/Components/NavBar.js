@@ -12,11 +12,11 @@ export default function NavBar() {
       <h1>TPC Chico</h1>
       <h2>Technical Projects Club</h2>
       <ul>
-        <CustomLink to="/Home">Home</CustomLink>
-        <CustomLink to="/About">About</CustomLink>
-        <CustomLink to="/Events">Events</CustomLink>
-        <CustomLink to="/Projects">Projects</CustomLink>
-        <CustomLink to="/Contact">Contact Us</CustomLink>
+        <CustomLink href="/Home">Home</CustomLink>
+        <CustomLink href="/About">About</CustomLink>
+        <CustomLink href="/Events">Events</CustomLink>
+        <CustomLink href="/Projects">Projects</CustomLink>
+        <CustomLink href="/Contact">Contact Us</CustomLink>
       </ul>
       <a href="https://discord.gg/gZb7q8S7JY" target='_blank' rel="noopener noreferrer" className="cta-button">Join Our Discord</a>
     </nav>
@@ -29,7 +29,7 @@ function CustomLink({ to, children, ...props }) {
 
   return (
     <li className={isActive ? 'active' : ''}>
-      <Link to={to} {...props}>
+      <Link href={href} {...props}>
         {children}
       </Link>
     </li>
