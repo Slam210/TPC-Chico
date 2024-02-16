@@ -1,16 +1,16 @@
-import AdamCellular3d from "../Images/AdamCellular3d.png"
-import NumanScheduleHelper from "../Images/NumanScheduleHelper.png"
-import AdamRaylib from  "../Images/AdamRaylib.png"
-import AdamGameofLife from "../Images/AdamGameofLife.png"
-import AlexSnailMazeSharp from "../Images/AlexSnailMazeSharp.png"
-import Aidan3D from "../Images/Aidan3d.png"
-import MilesEmulator from "../Images/MilesEmulator.png"
+import AdamCellular3d from "../Images/Projects/AdamCellular3d.png"
+import NumanScheduleHelper from "../Images/Projects/NumanScheduleHelper.png"
+import AdamRaylib from  "../Images/Projects/AdamRaylib.png"
+import AdamGameofLife from "../Images/Projects/AdamGameofLife.png"
+import AlexSnailMazeSharp from "../Images/Projects/AlexSnailMazeSharp.png"
+import Aidan3D from "../Images/Projects/Aidan3d.png"
+import MilesEmulator from "../Images/Projects/MilesEmulator.png"
 
 const projectsData = [
     {
       name: "Adam Ullmann",
       title: "Cellular Automata 3D",
-      githubLink: "https://github.com/AdamUllmann/Cellular-Automata-Online",
+      githubLink: "https://github.com/AdamUllmann/Cellular-Automata-3D",
       description: "Created a personal project using Raylib, simulating real-time 3D cellular automata behavior with user-input rules, camera controls, and speed adjustments. Implemented rudimentary ground shadows, shading, antialiasing, frustum culling, and ongoing work on occlusion culling. Inspired by Conway's Game of Life, the simulation supports up to 125,000 cells per frame, achieving 60 frames per second on modern machines.",
       image: AdamCellular3d,
     },

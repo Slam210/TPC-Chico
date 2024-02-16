@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import '../CSS/NavBar.css';
-import logo from '../Images/ClubLogo.png'
+import logo from '../Images/Logo/ClubLogo.png'
 
 export default function NavBar() {
   return (
     <nav className="navBar">
-      <a className='clubLogo' href='/Home'>
+      <a className='clubLogo' href='#/Home'>
         <img src={logo} alt="Club logo" width='25%'/>
       </a>
       <h1>TPC Chico</h1>
