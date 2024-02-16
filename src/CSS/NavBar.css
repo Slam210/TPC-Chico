@@ -39,7 +39,7 @@
 /* Active List Item Styles */
 .navBar li.active {
   background-color: lightgray;
-  border-radius: 5%;
+  border-radius: 50px;
   transition: background-color 1s ease;
   color: black;
 }
