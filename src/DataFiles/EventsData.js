@@ -17,14 +17,14 @@ const eventsData = [
   },
   {
     id: 2,
-    date: '2024-03-14',
+    date: '2024-03-28',
     title: 'General Club Meeting',
     description: 'Second general meeting for the semester. And guess what? There will be PIZZA! We are a growing community where members can showcase their projects, connect, and collaborate. We hope to see you there!',
     images: [],
   },
   {
     id: 3,
-    date: '2024-04-11',
+    date: '2024-04-25',
     title: 'General Meetup',
     description: 'Third general meeting for the semester. And guess what? There will be PIZZA! We are a growing community where members can showcase their projects, connect, and collaborate. We hope to see you there!',
     images: [],

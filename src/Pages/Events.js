@@ -62,12 +62,11 @@ function Events() {
             <ul className="EventList">
                 {eventsData.map((event, index) => (
                     <li key={index} className="EventElement">
-                        <strong>Date:</strong> {event.date}<br />
                         <strong>Title:</strong> {event.title}<br />
-                        <strong>Description:</strong> {event.description} <br />
+                        <strong>Date:</strong> {event.date}<br />
+                        <br />
                         {event.images.length > 0 && (
                             <>
-                                <strong>Images:</strong>
                                 <div className="ImageContainer">
                                     <Carousel
                                         showThumbs={true}
