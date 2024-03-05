@@ -62,7 +62,7 @@ function Events() {
             <ul className="EventList">
                 {eventsData.map((event, index) => (
                     <li key={index} className="EventElement">
-                        <strong>Title:</strong> {event.title}<br />
+                        <strong>{event.title}</strong><br />
                         <strong>Date:</strong> {event.date}<br />
                         <br />
                         {event.images.length > 0 && (
