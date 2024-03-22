@@ -1,14 +1,15 @@
 .ProjectBody {
     position: absolute;
-    left: 25%;
+    left: 24%;
     max-width: 100%;
-    top: 5%;
+    margin-top: 3%;
 }
 
 .ProjectElement {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 5%;
+    padding: 1%
 }
 
 .ProjectColumn {
@@ -24,10 +25,10 @@
     max-height: 100%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 4%;
-    margin-left: 20%;
+    margin-left: 0;
 }
 
-.ProjectTitle a{
+.ProjectTitle a {
     color: black;
     transition: color 0.3s ease;
 }
@@ -60,4 +61,87 @@
 .FullscreenImage {
     max-width: 90%;
     max-height: 90%;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .ProjectElement {
+        margin-right: 5%;
+    }
+    .ProjectBody {
+        right: 3%;
+    }
+    .ProjectImage {
+        margin-left: 0;
+    }
+    .ProjectTitle {
+        font-size: 90%;
+    }
+    
+    .ProjectDescription {
+        font-size: 70%;
+    }
+}
+  
+@media (max-width: 800px) {
+    .ProjectElement {
+        margin-right: 5%;
+    }
+    .ProjectBody {
+        right: 3%;
+    }
+    .ProjectImage {
+        margin-left: 0;
+    }
+    .ProjectTitle {
+        font-size: 70%;
+    }
+    
+    .ProjectDescription {
+        font-size: 60%;
+    }
+}  
+  
+@media (max-width: 400px) {
+    .ProjectElement {
+        margin-right: 5%;
+    }
+    .ProjectBody {
+    right: 3%;
+}
+    .ProjectImage {
+        margin-left: 0;
+    }
+    .ProjectTitle {
+        font-size: 60%;
+    }
+    
+    .ProjectDescription {
+        font-size: 50%;
+    }
+}
+
+/* For devices with similar portrait and landscape dimensions*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (min-device-height: 768px) {
+    .ProjectElement {
+        margin-right: 5%;
+    }
+    .ProjectColumn {
+        width: 100%;
+        padding: 0;
+    }
+    .ProjectBody {
+        top: 5%;
+    }
+    .ProjectImage {
+        margin-left: 0;
+    }
+    .ProjectTitle {
+        font-size: 120%;
+    }
+    
+    .ProjectDescription {
+        font-size: 120%;
+    }
+
 }
