@@ -1,7 +1,7 @@
 .homePageBody {
     position: fixed;
-    left: 28%;
-    right: 2%;
+    left: 26%;
+    right: 1%;
     overflow-y: auto;
     height: 100%;
     text-align: center;
@@ -30,15 +30,6 @@
 }
   
 @media only screen and (max-width: 800px) {
-    .homePageBody {
-        position:fixed;
-        left: 27%;
-        right: 3%;
-        overflow-y: auto;
-        height: 100%;
-        text-align: center;
-    }
-
     .homePageTitle {
         font-size: 70%;
     }
