@@ -1,22 +1,22 @@
 .EventBody {
     position: absolute;
-    left: 24%;
-    right: 1%;
+    right: 3%;
     overflow-y: auto;
     height: 100%;
     font-weight: 400px;
+    left: 28%;
 }
+
 
 .react-calendar {
     margin-top: 5%;
-    width: 97%;
+    width: 100%;
     max-width: 100%;
     background: #E5E4E2;
     border: 1px solid #a0a096;
     line-height: 1.125em;
     border-radius: 15px;
     overflow: hidden;
-    margin-left: 3%;
     margin-bottom: 5%;
 }
 
@@ -172,7 +172,59 @@
 }
 
 .ImageContainer {
-    max-width: 50%;
+    max-width: 100%;
     margin: auto;
     position: relative;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .react-calendar__tile {
+        font-size: 70%;
+    }
+    .react-calendar__month-view__weekdays {
+        font-size: 70%;
+    }
+    .react-calendar__tile {
+        font-size: 70%
+    }
+}
+  
+@media (max-width: 800px) {
+    .react-calendar__tile {
+        font-size: 60%;
+    }
+    .react-calendar__month-view__weekdays {
+        font-size: 60%;
+    }
+    .react-calendar__tile {
+        font-size: 60%
+    }
+
+}  
+  
+@media (max-width: 400px) {
+    .react-calendar__tile {
+        font-size: 50%;
+    }
+    .react-calendar__month-view__weekdays {
+        font-size: 50%;
+    }
+    .react-calendar__tile {
+        font-size: 50%
+    }
+
+}
+
+/* For devices with similar portrait and landscape dimensions*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (min-device-height: 768px) {
+    .react-calendar__tile {
+        font-size: 120%;
+    }
+    .react-calendar__month-view__weekdays {
+        font-size: 120%;
+    }
+    .react-calendar__tile {
+        font-size: 120%
+    }
 }

@@ -59,34 +59,35 @@ function Events() {
                 className="Calendar"
                 tileContent={tileContent}
             />
-            <ul className="EventList">
-                {eventsData.map((event, index) => (
-                    <li key={index} className="EventElement">
-                        <strong>{event.title}</strong><br />
-                        <strong>Date:</strong> {event.date}<br />
-                        <br />
-                        {event.images.length > 0 && (
-                            <>
-                                <div className="ImageContainer">
-                                    <Carousel
-                                        showThumbs={true}
-                                        showIndicators={false}
-                                        showStatus={false}
-                                        emulateTouch={true}
-                                        infiniteLoop={true}
-                                        selectedItem={selectedEventIndex}
-                                        onChange={handleImageChange}
-                                        centerMode
-                                        centerSlidePercentage={33.3}
-                                    >
-                                        {generateCarouselSlides(event)}
-                                    </Carousel>
-                                </div>
-                            </>
-                        )}
-                    </li>
-                ))}
-            </ul>
+<div className="EventList">
+    {eventsData.map((event, index) => (
+        <div key={index} className="EventElement">
+            <strong>{event.title}</strong><br />
+            <strong>Date:</strong> {event.date}<br />
+            <br />
+            {event.images.length > 0 && (
+                <>
+                    <div className="ImageContainer">
+                        <Carousel
+                            showThumbs={true}
+                            showIndicators={false}
+                            showStatus={false}
+                            emulateTouch={true}
+                            infiniteLoop={true}
+                            selectedItem={selectedEventIndex}
+                            onChange={handleImageChange}
+                            centerMode
+                            centerSlidePercentage={33.3}
+                        >
+                            {generateCarouselSlides(event)}
+                        </Carousel>
+                    </div>
+                </>
+            )}
+        </div>
+    ))}
+</div>
+
             {fullscreenImage && (
                 <div className="FullscreenOverlay" onClick={closeFullscreen}>
                     <img className="FullscreenImage" src={fullscreenImage} alt="Fullscreen" />
