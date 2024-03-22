@@ -26,81 +26,37 @@
     }
     
     .aboutDescription {
-        font-size: 70%;
+        font-size: 90%;
     }
 }
   
 @media only screen and (max-width: 800px) {
     .aboutTitle {
-        font-size: 70%;
+        font-size: 80%;
     }
     
     .aboutDescription {
-        font-size: 60%;
+        font-size: 80%;
     }
 }  
   
 @media only screen and (max-width: 400px) {
     .aboutTitle {
-        font-size: 60%;
+        font-size: 70%;
     }
     
     .aboutDescription {
-        font-size: 50%;
+        font-size: 70%;
     }
 }
 
-@media only screen and (orientation: vertical), only screen and (min-width: 400px), only screen and (min-height: 800px)  {
-    .aboutTitle {
-        font-size: 100%;
-    }
-    
-    .aboutDescription {
-        font-size: 100%;
-    }
-
-}
-
-@media only screen and (orientation: vertical), only screen and (min-width: 500px), only screen and (min-height: 1000px)  {
-    .aboutTitle {
-        font-size: 100%;
-    }
-    
-    .aboutDescription {
-        font-size: 100%;
-    }
-
-}
-
-@media only screen and (orientation: vertical), only screen and (min-width: 500px), only screen and (min-height: 1100px)  {
-    .aboutTitle {
-        font-size: 110%;
-    }
-    
-    .aboutDescription {
-        font-size: 100%;
-    }
-
-}
-
-@media only screen and (orientation: vertical), only screen and (min-width: 500px), only screen and (min-height: 1200px)  {
+/* For devices with similar portrait and landscape dimensions*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (min-device-height: 768px) {
     .aboutTitle {
         font-size: 120%;
     }
     
     .aboutDescription {
-        font-size: 110%;
-    }
-
-}
-
-@media (orientation: vertical), (min-width: 500px), (min-height: 1300px)  {
-    .aboutTitle {
-        font-size: 130%;
-    }
-    
-    .aboutDescription {
         font-size: 120%;
     }
-
 }

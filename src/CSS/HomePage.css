@@ -59,42 +59,10 @@
     }
 }
 
-@media only screen and (orientation: vertical), only screen and (min-width: 500px), only screen and (min-height: 1000px)  {
-    .homePageTitle {
-        font-size: 100%;
-    }
-    
-    .homePageDescription {
-        font-size: 100%;
-    }
-
-}
-
-@media only screen and (orientation: vertical), only screen and (min-width: 500px), only screen and (min-height: 1100px)  {
-    .homePageTitle {
-        font-size: 110%;
-    }
-    
-    .homePageDescription {
-        font-size: 100%;
-    }
-
-}
-
-@media only screen and (orientation: vertical), only screen and (min-width: 500px), only screen and (min-height: 1200px)  {
+/* For devices with similar portrait and landscape dimensions*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (min-device-height: 768px) {
     .homePageTitle {
         font-size: 120%;
-    }
-    
-    .homePageDescription {
-        font-size: 110%;
-    }
-
-}
-
-@media only screen and (orientation: vertical), only screen and (min-width: 500px), only screen and (min-height: 1300px)  {
-    .homePageTitle {
-        font-size: 130%;
     }
     
     .homePageDescription {
