@@ -1,6 +1,7 @@
 .homePageBody {
     position: fixed;
-    left: 27%;
+    left: 28%;
+    right: 2%;
     overflow-y: auto;
     height: 100%;
     text-align: center;
@@ -17,19 +18,8 @@
     font-weight: 400;
 }
 
-/* Media Queries */
-
-  
+/* Media Queries */  
 @media only screen and (max-width: 1200px) {
-    .homePageBody {
-        position:fixed;
-        left: 28%;
-        right: 2%;
-        overflow-y: auto;
-        height: 100%;
-        text-align: center;
-    }
-
     .homePageTitle {
         font-size: 90%;
     }
@@ -59,14 +49,6 @@
 }  
   
 @media only screen and (max-width: 400px) {
-    .homePageBody {
-        position:fixed;
-        left: 27%;
-        right: 3%;
-        overflow-y: auto;
-        height: 100%;
-        text-align: center;
-    }
 
     .homePageTitle {
         font-size: 60%;
