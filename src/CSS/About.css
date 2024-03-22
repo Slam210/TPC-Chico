@@ -14,6 +14,93 @@
 
 .aboutDescription {
     font-size: large;
-    text-align: left;
+    text-align: center;
     font-weight: 400;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1200px) {
+    .aboutTitle {
+        font-size: 90%;
+    }
+    
+    .aboutDescription {
+        font-size: 70%;
+    }
+}
+  
+@media only screen and (max-width: 800px) {
+    .aboutTitle {
+        font-size: 70%;
+    }
+    
+    .aboutDescription {
+        font-size: 60%;
+    }
+}  
+  
+@media only screen and (max-width: 400px) {
+    .aboutTitle {
+        font-size: 60%;
+    }
+    
+    .aboutDescription {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (orientation: vertical), only screen and (min-width: 400px), only screen and (min-height: 800px)  {
+    .aboutTitle {
+        font-size: 100%;
+    }
+    
+    .aboutDescription {
+        font-size: 100%;
+    }
+
+}
+
+@media only screen and (orientation: vertical), only screen and (min-width: 500px), only screen and (min-height: 1000px)  {
+    .aboutTitle {
+        font-size: 100%;
+    }
+    
+    .aboutDescription {
+        font-size: 100%;
+    }
+
+}
+
+@media only screen and (orientation: vertical), only screen and (min-width: 500px), only screen and (min-height: 1100px)  {
+    .aboutTitle {
+        font-size: 110%;
+    }
+    
+    .aboutDescription {
+        font-size: 100%;
+    }
+
+}
+
+@media only screen and (orientation: vertical), only screen and (min-width: 500px), only screen and (min-height: 1200px)  {
+    .aboutTitle {
+        font-size: 120%;
+    }
+    
+    .aboutDescription {
+        font-size: 110%;
+    }
+
+}
+
+@media (orientation: vertical), (min-width: 500px), (min-height: 1300px)  {
+    .aboutTitle {
+        font-size: 130%;
+    }
+    
+    .aboutDescription {
+        font-size: 120%;
+    }
+
 }
