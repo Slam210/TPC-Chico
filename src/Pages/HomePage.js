@@ -8,15 +8,15 @@ function HomePage() {
             {homePageData.map((section, index) => (
                 <div key={index} className="homePageSection">
                     <h3 className='homePageTitle'>{section.title}</h3>
-                    <ul className='homePageDescription'>
+                    <p className='homePageDescription'>
                         {section.description.split('\n').map((point, pointIndex) => (
                             <p key={pointIndex}>{point.trim()}</p>
                         ))}
-                    </ul>
+                    </p>
                     <br></br>
                 </div>
             ))}
-            <h3>© 2023 Technical Projects Club - CSU Chico. All rights reserved.</h3>
+            <h3 className='homePageDescription'><b>© 2023 Technical Projects Club - CSU Chico. All rights reserved.</b></h3>
         </div>
     )
 }

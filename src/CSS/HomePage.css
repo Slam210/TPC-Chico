@@ -1,11 +1,10 @@
 .homePageBody {
     position: fixed;
-    left: 24%;
-    right: 1%;
+    left: 27%;
     overflow-y: auto;
     height: 100%;
     text-align: center;
-    max-width: 100%;
+    max-width: 95%;
 }
 
 .homePageTitle {
@@ -16,4 +15,108 @@
 .homePageDescription {
     font-size: large; 
     font-weight: 400;
+}
+
+/* Media Queries */
+
+  
+@media only screen and (max-width: 1200px) {
+    .homePageBody {
+        position:fixed;
+        left: 28%;
+        right: 2%;
+        overflow-y: auto;
+        height: 100%;
+        text-align: center;
+    }
+
+    .homePageTitle {
+        font-size: 90%;
+    }
+    
+    .homePageDescription {
+        font-size: 70%;
+    }
+}
+  
+@media only screen and (max-width: 800px) {
+    .homePageBody {
+        position:fixed;
+        left: 27%;
+        right: 3%;
+        overflow-y: auto;
+        height: 100%;
+        text-align: center;
+    }
+
+    .homePageTitle {
+        font-size: 70%;
+    }
+    
+    .homePageDescription {
+        font-size: 60%;
+    }
+}  
+  
+@media only screen and (max-width: 400px) {
+    .homePageBody {
+        position:fixed;
+        left: 27%;
+        right: 3%;
+        overflow-y: auto;
+        height: 100%;
+        text-align: center;
+    }
+
+    .homePageTitle {
+        font-size: 60%;
+    }
+    
+    .homePageDescription {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (orientation: vertical), only screen and (min-width: 500px), only screen and (min-height: 1000px)  {
+    .homePageTitle {
+        font-size: 100%;
+    }
+    
+    .homePageDescription {
+        font-size: 100%;
+    }
+
+}
+
+@media only screen and (orientation: vertical), only screen and (min-width: 500px), only screen and (min-height: 1100px)  {
+    .homePageTitle {
+        font-size: 110%;
+    }
+    
+    .homePageDescription {
+        font-size: 100%;
+    }
+
+}
+
+@media only screen and (orientation: vertical), only screen and (min-width: 500px), only screen and (min-height: 1200px)  {
+    .homePageTitle {
+        font-size: 120%;
+    }
+    
+    .homePageDescription {
+        font-size: 110%;
+    }
+
+}
+
+@media only screen and (orientation: vertical), only screen and (min-width: 500px), only screen and (min-height: 1300px)  {
+    .homePageTitle {
+        font-size: 130%;
+    }
+    
+    .homePageDescription {
+        font-size: 120%;
+    }
+
 }
