@@ -10,13 +10,13 @@ function HomePage() {
                     <h3 className='homePageTitle'>{section.title}</h3>
                     <p className='homePageDescription'>
                         {section.description.split('\n').map((point, pointIndex) => (
-                            <p key={pointIndex}>{point.trim()}</p>
+                            <span key={pointIndex}>{point.trim()}</span>
                         ))}
                     </p>
                     <br></br>
                 </div>
             ))}
-            <h3 className='homePageDescription'><b>© 2023 Technical Projects Club - CSU Chico. All rights reserved.</b></h3>
+            <p><b>© 2023 Technical Projects Club - CSU Chico. All rights reserved.</b></p>
         </div>
     )
 }
